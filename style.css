@@ -1,0 +1,30 @@
+body{
+    font-family: chalkboard;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    justify-content: space-around;
+}
+
+#board > div {
+    border: solid 1px gray;
+    height: 8rem;
+    width: 8rem;
+}
+
+button{
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
